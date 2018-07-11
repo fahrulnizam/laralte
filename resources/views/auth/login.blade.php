@@ -11,7 +11,7 @@
         <form method="POST" action="{{ route('login') }}" aria-label="{{ ('Login') }}">
             @csrf
         <div class="form-group has-feedback">
-          <input id="email" type="email" placeholder="Email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
+          <input id="email" type="email" placeholder="Email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
           <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
             @if ($errors->has('email'))
               <span class="text-red">
