@@ -1,7 +1,7 @@
 ![](laralte.gif)
 
 # LaraLTE
-A admin web application boilerplate using Laravel and [AdminLTE](https://adminlte.io)
+A laravel admin panel boilerplate using [AdminLTE](https://adminlte.io)
 
 # Installation
 1. Clone the repo and cd into it
